@@ -3,7 +3,8 @@
 #include <stdio.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
-/*  Main - Determain if a number is positive, zero or negative */
+/* Main - Entry point */
+/*  Descrption: Determain if a number is positive, zero or negative */
  /* Return: Always 0 (succes) */
 
 int main(void)
