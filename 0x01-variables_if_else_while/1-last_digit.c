@@ -5,15 +5,17 @@
  * main - Entry point
  * Return: Alays 0
  */
+
 int main(void)
 {
 	int n;
-	int a;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	a = % 10;
 
+	int a;
+
+	a = % 10;
 	if (a > 5)
 		printf("last digit of %d is %d and is greater than 5/n", n, a);
 
